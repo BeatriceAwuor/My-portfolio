@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="menu-container">
+            <div class="logo">My Logo</div>
+                <div class="menu">
+                    <ul class="menu-items">
+                        <li><a href="index.html">Home</li>
+                        <li><a href="projects.html">Projects</li>
+                        <li><a href="CV.html">Cv</li>
+                        <li><a href="#">contant</li>
+                    </ul>
+                  </a>
+                </div>
+        </div>
+    </nav>
+    <div id="contact-wrapper">
+    <h1>contact</h1>
+    
+    <p>Feel free to reach out and contact me!</p>
+    <form action="https://formsubmit.co/otienobeatrice327@gmail.com" method="POST">
+      <div class="form-question required">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+      </div>
+      <div class="form-question required">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+      </div>
+      <div class="form-question">
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" value="+254 (0)" />
+      </div>
+      <div class="form-question">
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="5"></textarea>
+      </div>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
